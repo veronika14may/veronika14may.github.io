@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>СЛОЙ — Твоё идеальное утро по умолчанию</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="sun-beam"></div>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">СЛОЙ|МОЛНИЯ</div>
+    <div class="nav__links">
+      <a href="#sets">Наборы</a>
+      <a href="#how">Как это</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#calendar" class="nav__cta">Попробовать разок</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__steam steam-1"></div>
+      <div class="hero__steam steam-2"></div>
+      <div class="hero__steam steam-3"></div>
+      <div class="hero__grain"></div>
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title reveal">
+        Твоё идеальное<br />
+        <em>утро по умолчанию</em>
+      </h1>
+      <p class="hero__sub reveal">Горячий круассан у двери в&nbsp;08:30.<br />Без будильника. Без решений. Только тепло.</p>
+      <div class="hero__actions reveal">
+        <a href="#calendar" class="btn btn--primary">Настроить мой ритуал</a>
+        <a href="#sets" class="btn btn--ghost">Смотреть наборы</a>
+      </div>
+    </div>
+    <div class="hero__croissant">
+      <div class="croissant-wrapper">
+        <div class="croissant-shape"></div>
+        <div class="croissant-glow"></div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>прокрути</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto" id="manifesto">
+    <div class="manifesto__inner">
+      <div class="manifesto__number reveal">01</div>
+      <div class="manifesto__text">
+        <h2 class="manifesto__title reveal">Философия<br /><em>Ритуала</em></h2>
+        <div class="manifesto__body reveal">
+          <p>Вы имеете право на спокойное утро. Не на суету у холодильника, не на разогретый вчерашний хлеб — а на настоящий ритуал заботы о себе.</p>
+          <p>СЛОЙ — это не просто доставка выпечки. Это осознанный гедонизм: тёплое тесто, хруст корочки, аромат свежесмолотого кофе из соседней обжарки. Всё это — у вашей двери ровно тогда, когда нужно.</p>
+          <p>Один раз настроив ритуал, вы забываете о нём. Утро само начнёт быть красивым.</p>
+        </div>
+        <div class="manifesto__tag reveal">30 минут от печи до двери</div>
+      </div>
+  </section>
+
+  <!-- BOX TRANSFORMER -->
+  <section class="transformer" id="transformer">
+    <div class="transformer__inner">
+      <div class="transformer__label reveal"></div>
+      <h2 class="transformer__title reveal">Упаковка,<br />которая<br /><em>становится подносом</em></h2>
+      <div class="transformer__demo">
+        <div class="box-anim" id="boxAnim">
+          <div class="box-stage box-stage--closed" id="boxStage">
+            <div class="box__face box__top"></div>
+            <div class="box__face box__front"></div>
+            <div class="box__face box__right"></div>
+            <div class="box__face box__bottom"></div>
+            <div class="box__logo">СЛОЙ</div>
+          </div>
+          <div class="box-contents" id="boxContents">
+            <div class="bc-item bc-croissant">🥐</div>
+            <div class="bc-item bc-bread">🍞</div>
+            <div class="bc-note">
+              <span>Доброго утра,<br />Катя ✦</span>
+            </div>
+          </div>
+        </div>
+        <div class="transformer__hint" id="transformerHint">
+          <button class="transform-btn" id="transformBtn">Открыть бокс</button>
+        </div>
+      </div>
+      <p class="transformer__caption reveal">Нажмите, чтобы увидеть, как коробка раскрывается в&nbsp;поднос для сервировки</p>
+    </div>
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="how__inner">
+      <div class="how__number reveal"></div>
+      <h2 class="how__title reveal">Три шага<br />до<br /><em>идеального утра</em></h2>
+      <div class="how__steps">
+        <div class="how-step reveal-card">
+          <div class="how-step__num">1</div>
+          <div class="how-step__body">
+            <h3>Выбери сет</h3>
+            <p>Из готовых наборов или составь свой. Без ограничений по вкусам — только то, что нравится.</p>
+          </div>
+          <div class="how-step__arrow">→</div>
+        </div>
+        <div class="how-step reveal-card">
+          <div class="how-step__num">2</div>
+          <div class="how-step__body">
+            <h3>Настрой календарь</h3>
+            <p>Выбери дни недели и точное время. Пн, Ср, Пт в 08:30 — всё, больше не думай об этом.</p>
+          </div>
+          <div class="how-step__arrow">→</div>
+        </div>
+        <div class="how-step reveal-card">
+          <div class="how-step__num">3</div>
+          <div class="how-step__body">
+            <h3>Забирай горячим у&nbsp;двери</h3>
+            <p>Пекарь достаёт из печи → курьер стартует → 30 минут — и тепло уже у вашей двери.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALENDAR CONFIGURATOR -->
+  <section class="calendar-section" id="calendar">
+    <div class="calendar-section__inner">
+      <div class="cal-header">
+        <div class="cal-number reveal"></div>
+        <h2 class="cal-title reveal">Настрой<br /><em>свой ритуал</em></h2>
+      </div>
+      <div class="configurator reveal">
+        <div class="config-days">
+          <p class="config-label">Дни доставки</p>
+          <div class="days-grid">
+            <button class="day-btn" data-day="пн">Пн</button>
+            <button class="day-btn" data-day="вт">Вт</button>
+            <button class="day-btn" data-day="ср">Ср</button>
+            <button class="day-btn day-btn--active" data-day="чт">Чт</button>
+            <button class="day-btn" data-day="пт">Пт</button>
+            <button class="day-btn" data-day="сб">Сб</button>
+            <button class="day-btn" data-day="вс">Вс</button>
+          </div>
+        </div>
+        <div class="config-time">
+          <p class="config-label">Время доставки</p>
+          <div class="time-slots">
+            <button class="time-btn" data-t="07:00">07:00</button>
+            <button class="time-btn" data-t="07:30">07:30</button>
+            <button class="time-btn time-btn--active" data-t="08:00">08:00</button>
+            <button class="time-btn" data-t="08:30">08:30</button>
+            <button class="time-btn" data-t="09:00">09:00</button>
+            <button class="time-btn" data-t="09:30">09:30</button>
+            <button class="time-btn" data-t="10:00">10:00</button>
+          </div>
+        </div>
+        <div class="config-summary">
+          <div class="summary-card" id="summaryCard">
+            <div class="summary-icon">🥐</div>
+            <div class="summary-text">
+              <p>Твой ритуал</p>
+              <p class="summary-detail" id="summaryDetail">Чт в 08:00</p>
+            </div>
+          </div>
+          <a href="#sets" class="btn btn--primary btn--full">Оформить подписку</a>
+          <button class="btn btn--try btn--full" id="tryOnce">Попробовать разок — без подписки</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONALIZATION -->
+  <section class="personal" id="personal">
+    <div class="personal__inner">
+      <div class="personal__left">
+        <div class="personal__number reveal"></div>
+        <h2 class="personal__title reveal">Каждый бокс<br />— <em>твой</em></h2>
+        <p class="personal__text reveal">К каждому заказу прилагается рукописная записка с вашим именем. Маленький знак внимания, который превращает доставку в&nbsp;подарок самому себе.</p>
+        <div class="note-preview reveal">
+          <div class="note-paper">
+            <div class="note-lines">
+              <div class="note-line"></div>
+              <div class="note-line"></div>
+              <div class="note-line"></div>
+            </div>
+            <p class="note-text" id="noteText">Доброго утра,<br /><strong>Анна</strong> ✦<br /><em>Сегодня будет хороший день.</em></p>
+            <div class="note-stamp">СЛОЙ</div>
+          </div>
+        </div>
+      </div>
+      <div class="personal__right reveal-card">
+        <div class="personal__feature">
+          <div class="pf-icon">🌡️</div>
+          <div>
+            <h4>Всегда горячее</h4>
+            <p>Правило «30 минут от печи до двери» — не маркетинг, а стандарт. Иначе — бесплатная замена.</p>
+          </div>
+        </div>
+        <div class="personal__feature">
+          <div class="pf-icon">📅</div>
+          <div>
+            <h4>Гибкий график</h4>
+            <p>Отмените или перенесите любую доставку до 22:00 предыдущего дня. Без штрафов.</p>
+          </div>
+        </div>
+        <div class="personal__feature">
+          <div class="pf-icon">📍</div>
+          <div>
+            <h4>Зона доставки</h4>
+            <p>Пока работаем в пределах Садового кольца и ближайших районах. Расширяемся каждый месяц.</p>
+          </div>
+        </div>
+        <div class="personal__feature">
+          <div class="pf-icon">💳</div>
+          <div>
+            <h4>Автосписание</h4>
+            <p>Привяжите карту один раз. Списываем в начале каждой недели. Никаких лишних шагов.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq__inner">
+      <h2 class="faq__title reveal">Главные<br /><em>вопросы</em></h2>
+      <div class="faq__list">
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Правда ли, что круассан будет тёплым?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Да. Мы работаем по принципу «30 минут от печи до двери». Курьер забирает заказ из печи, а не со склада. Если вдруг что-то пошло не так — бесплатная замена в тот же день или возврат средств.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Могу ли я отменить подписку?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>В любой момент — без штрафов и объяснений. Зайдите в личный кабинет и нажмите «Приостановить» или «Отменить». Деньги за неиспользованные доставки вернём на карту.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Какая зона доставки?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Сейчас доставляем в пределах Садового кольца и районы: Хамовники, Арбат, Пресня, Таганка, Замоскворечье. Проверьте свой адрес в конфигураторе — зона расширяется каждый месяц.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Что если я не буду дома?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Перенесите доставку до 22:00 предыдущего дня — бесплатно. Или укажите в настройках «оставить у двери» — курьер аккуратно поставит бокс-поднос, который сохранит тепло ещё 15–20 минут.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Как работает «Попробовать разок»?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Выберите набор, укажите дату и время — оплатите единоразово без оформления подписки. Понравится — настроите ритуал. Нет — ничего не потеряете. Первый заказ без подписки со скидкой 20%.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            <span>Из чего сделана выпечка?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Мы печём каждое утро с 7:00. Французское масло, мука от российских фермеров, никаких консервантов. Состав каждой позиции — в карточке товара. Работаем с аллергиями: напишите нам при оформлении.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="final-cta__bg">
+      <div class="fc-grain"></div>
+    </div>
+    <div class="final-cta__inner">
+      <p class="fc-eyebrow reveal">начните завтра</p>
+      <h2 class="fc-title reveal">Первое утро<br /><em>уже ждёт</em></h2>
+      <p class="fc-sub reveal">Оформите ритуал сегодня — и&nbsp;завтра тёплый круассан уже будет у&nbsp;вашей двери.</p>
+      <div class="fc-actions reveal">
+        <a href="#calendar" class="btn btn--light btn--lg">Настроить мой ритуал</a>
+        <a href="#calendar" class="btn btn--outline-light btn--lg">Попробовать разок</a>
+      </div>
+      <p class="fc-note reveal">Первый заказ без подписки — скидка 20%</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">СЛОЙ</div>
+      <div class="footer__links">
+        <a href="#">О нас</a>
+        <a href="#">Состав</a>
+        <a href="#">Зона доставки</a>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+      <div class="footer__socials">
+        <a href="#">TG</a>
+        <a href="#">VK</a>
+        <a href="#">IG</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 СЛОЙ. Подписка на горячую выпечку.</p>
+      <p>Санкт-Петербург · пекарня работает с 07:00</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
